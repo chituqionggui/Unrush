@@ -1,0 +1,21 @@
+﻿{
+    "@@locale":  "en",
+    "appTitle":  "Study Calm",
+    "calmTitle":  "Take a calm moment",
+    "homeTitle":  "Home",
+    "homeQuickTense":  "I feel tense now",
+    "homeQuickLow":  "I feel low",
+    "homeQuickFocus":  "I need to focus",
+    "breathTitle":  "Breath",
+    "breathPatternSquare":  "Square",
+    "breathPattern478":  "4-7-8",
+    "breathDuration1":  "1 min",
+    "breathDuration3":  "3 min",
+    "breathDuration5":  "5 min",
+    "breathStart":  "Start",
+    "breathStop":  "Stop",
+    "breathPhaseInhale":  "Inhale",
+    "breathPhaseHold":  "Hold",
+    "breathPhaseExhale":  "Exhale",
+    "breathReady":  "Ready"
+}

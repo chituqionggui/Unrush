@@ -1,0 +1,21 @@
+{
+  "@@locale": "zh",
+  "appTitle": "Study Calm",
+  "calmTitle": "先和自己待一会儿",
+  "homeTitle": "首页",
+  "homeQuickTense": "我现在紧张",
+  "homeQuickLow": "我有点低落",
+  "homeQuickFocus": "我需要专注",
+  "breathTitle": "呼吸",
+  "breathPatternSquare": "方块呼吸",
+  "breathPattern478": "4-7-8",
+  "breathDuration1": "1 分钟",
+  "breathDuration3": "3 分钟",
+  "breathDuration5": "5 分钟",
+  "breathStart": "开始",
+  "breathStop": "停止",
+  "breathPhaseInhale": "吸气",
+  "breathPhaseHold": "停留",
+  "breathPhaseExhale": "呼气",
+  "breathReady": "准备"
+}
