@@ -61,4 +61,61 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get breathReady => 'Ready';
+
+  @override
+  String get homeQuickCheckin => 'Quick check-in';
+
+  @override
+  String get checkinTitle => 'Quick Check-in';
+
+  @override
+  String get checkinIntensity => 'Intensity (0-10)';
+
+  @override
+  String get checkinMood => 'Main mood';
+
+  @override
+  String get checkinContext => 'Context tags';
+
+  @override
+  String get checkinNote => 'One line (optional)';
+
+  @override
+  String get checkinNoteHint => 'Write a short note (optional)';
+
+  @override
+  String get checkinSubmit => 'Submit';
+
+  @override
+  String get checkinSuggestNext => 'Nice work. What’s next?';
+
+  @override
+  String get checkinBackHome => 'Back to Home';
+
+  @override
+  String get checkinMoodCalm => 'Calm';
+
+  @override
+  String get checkinMoodTense => 'Tense';
+
+  @override
+  String get checkinMoodLow => 'Low';
+
+  @override
+  String get checkinMoodNeutral => 'Neutral';
+
+  @override
+  String get checkinTagStudy => 'Study';
+
+  @override
+  String get checkinTagExam => 'Exam';
+
+  @override
+  String get checkinTagSleep => 'Sleep';
+
+  @override
+  String get checkinTagSocial => 'Social';
+
+  @override
+  String get checkinTagFamily => 'Family';
 }

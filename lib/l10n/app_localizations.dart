@@ -134,25 +134,191 @@ abstract class AppLocalizations {
   /// **'我需要专注'**
   String get homeQuickFocus;
 
-  /// Title for the breath page.
+  /// No description provided for @breathTitle.
+  ///
+  /// In zh, this message translates to:
+  /// **'呼吸'**
   String get breathTitle;
-  /// Breath pattern name: Square (4-4-4-4)
+
+  /// No description provided for @breathPatternSquare.
+  ///
+  /// In zh, this message translates to:
+  /// **'方块呼吸'**
   String get breathPatternSquare;
-  /// Breath pattern name: 4-7-8
+
+  /// No description provided for @breathPattern478.
+  ///
+  /// In zh, this message translates to:
+  /// **'4-7-8'**
   String get breathPattern478;
-  /// Breath duration options
+
+  /// No description provided for @breathDuration1.
+  ///
+  /// In zh, this message translates to:
+  /// **'1 分钟'**
   String get breathDuration1;
+
+  /// No description provided for @breathDuration3.
+  ///
+  /// In zh, this message translates to:
+  /// **'3 分钟'**
   String get breathDuration3;
+
+  /// No description provided for @breathDuration5.
+  ///
+  /// In zh, this message translates to:
+  /// **'5 分钟'**
   String get breathDuration5;
-  /// Start/Stop labels
+
+  /// No description provided for @breathStart.
+  ///
+  /// In zh, this message translates to:
+  /// **'开始'**
   String get breathStart;
+
+  /// No description provided for @breathStop.
+  ///
+  /// In zh, this message translates to:
+  /// **'停止'**
   String get breathStop;
-  /// Phase labels
+
+  /// No description provided for @breathPhaseInhale.
+  ///
+  /// In zh, this message translates to:
+  /// **'吸气'**
   String get breathPhaseInhale;
+
+  /// No description provided for @breathPhaseHold.
+  ///
+  /// In zh, this message translates to:
+  /// **'停留'**
   String get breathPhaseHold;
+
+  /// No description provided for @breathPhaseExhale.
+  ///
+  /// In zh, this message translates to:
+  /// **'呼气'**
   String get breathPhaseExhale;
-  /// Ready label before starting
+
+  /// No description provided for @breathReady.
+  ///
+  /// In zh, this message translates to:
+  /// **'准备'**
   String get breathReady;
+
+  /// No description provided for @homeQuickCheckin.
+  ///
+  /// In zh, this message translates to:
+  /// **'快速签到'**
+  String get homeQuickCheckin;
+
+  /// No description provided for @checkinTitle.
+  ///
+  /// In zh, this message translates to:
+  /// **'快速签到'**
+  String get checkinTitle;
+
+  /// No description provided for @checkinIntensity.
+  ///
+  /// In zh, this message translates to:
+  /// **'强度（0-10）'**
+  String get checkinIntensity;
+
+  /// No description provided for @checkinMood.
+  ///
+  /// In zh, this message translates to:
+  /// **'主情绪'**
+  String get checkinMood;
+
+  /// No description provided for @checkinContext.
+  ///
+  /// In zh, this message translates to:
+  /// **'情景标签'**
+  String get checkinContext;
+
+  /// No description provided for @checkinNote.
+  ///
+  /// In zh, this message translates to:
+  /// **'一句话（可选）'**
+  String get checkinNote;
+
+  /// No description provided for @checkinNoteHint.
+  ///
+  /// In zh, this message translates to:
+  /// **'写一句话（可选）'**
+  String get checkinNoteHint;
+
+  /// No description provided for @checkinSubmit.
+  ///
+  /// In zh, this message translates to:
+  /// **'提交'**
+  String get checkinSubmit;
+
+  /// No description provided for @checkinSuggestNext.
+  ///
+  /// In zh, this message translates to:
+  /// **'已记录，接下来做点什么？'**
+  String get checkinSuggestNext;
+
+  /// No description provided for @checkinBackHome.
+  ///
+  /// In zh, this message translates to:
+  /// **'返回首页'**
+  String get checkinBackHome;
+
+  /// No description provided for @checkinMoodCalm.
+  ///
+  /// In zh, this message translates to:
+  /// **'平静'**
+  String get checkinMoodCalm;
+
+  /// No description provided for @checkinMoodTense.
+  ///
+  /// In zh, this message translates to:
+  /// **'紧张'**
+  String get checkinMoodTense;
+
+  /// No description provided for @checkinMoodLow.
+  ///
+  /// In zh, this message translates to:
+  /// **'低落'**
+  String get checkinMoodLow;
+
+  /// No description provided for @checkinMoodNeutral.
+  ///
+  /// In zh, this message translates to:
+  /// **'一般'**
+  String get checkinMoodNeutral;
+
+  /// No description provided for @checkinTagStudy.
+  ///
+  /// In zh, this message translates to:
+  /// **'学习'**
+  String get checkinTagStudy;
+
+  /// No description provided for @checkinTagExam.
+  ///
+  /// In zh, this message translates to:
+  /// **'考试'**
+  String get checkinTagExam;
+
+  /// No description provided for @checkinTagSleep.
+  ///
+  /// In zh, this message translates to:
+  /// **'睡眠'**
+  String get checkinTagSleep;
+
+  /// No description provided for @checkinTagSocial.
+  ///
+  /// In zh, this message translates to:
+  /// **'社交'**
+  String get checkinTagSocial;
+
+  /// No description provided for @checkinTagFamily.
+  ///
+  /// In zh, this message translates to:
+  /// **'家庭'**
+  String get checkinTagFamily;
 }
 
 class _AppLocalizationsDelegate

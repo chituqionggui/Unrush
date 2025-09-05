@@ -61,4 +61,61 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get breathReady => '准备';
+
+  @override
+  String get homeQuickCheckin => '快速签到';
+
+  @override
+  String get checkinTitle => '快速签到';
+
+  @override
+  String get checkinIntensity => '强度（0-10）';
+
+  @override
+  String get checkinMood => '主情绪';
+
+  @override
+  String get checkinContext => '情景标签';
+
+  @override
+  String get checkinNote => '一句话（可选）';
+
+  @override
+  String get checkinNoteHint => '写一句话（可选）';
+
+  @override
+  String get checkinSubmit => '提交';
+
+  @override
+  String get checkinSuggestNext => '已记录，接下来做点什么？';
+
+  @override
+  String get checkinBackHome => '返回首页';
+
+  @override
+  String get checkinMoodCalm => '平静';
+
+  @override
+  String get checkinMoodTense => '紧张';
+
+  @override
+  String get checkinMoodLow => '低落';
+
+  @override
+  String get checkinMoodNeutral => '一般';
+
+  @override
+  String get checkinTagStudy => '学习';
+
+  @override
+  String get checkinTagExam => '考试';
+
+  @override
+  String get checkinTagSleep => '睡眠';
+
+  @override
+  String get checkinTagSocial => '社交';
+
+  @override
+  String get checkinTagFamily => '家庭';
 }

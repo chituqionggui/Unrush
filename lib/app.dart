@@ -6,6 +6,7 @@ import 'features/practice/calm_start.dart';
 import 'features/home/home_page.dart';
 import 'features/practice/breath_page.dart';
 import 'features/practice/toolkit_placeholder.dart';
+import 'features/mood/quick_checkin.dart';
 import 'features/practice/toolkit_placeholder.dart';
 
 class App extends StatelessWidget {
@@ -16,6 +17,7 @@ class App extends StatelessWidget {
     final router = GoRouter(routes: [
       GoRoute(path: '/', builder: (ctx, st) => const CalmStartPage()),
       GoRoute(path: '/home', builder: (ctx, st) => const HomePage()),
+      GoRoute(path: '/checkin/quick', builder: (ctx, st) => const QuickCheckinPage()),
       GoRoute(
         path: '/toolkit/:type',
         builder: (ctx, st) {

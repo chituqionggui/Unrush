@@ -18,4 +18,23 @@
   "breathPhaseHold": "停留",
   "breathPhaseExhale": "呼气",
   "breathReady": "准备"
+  ,"homeQuickCheckin": "快速签到",
+  "checkinTitle": "快速签到",
+  "checkinIntensity": "强度（0-10）",
+  "checkinMood": "主情绪",
+  "checkinContext": "情景标签",
+  "checkinNote": "一句话（可选）",
+  "checkinNoteHint": "写一句话（可选）",
+  "checkinSubmit": "提交",
+  "checkinSuggestNext": "已记录，接下来做点什么？",
+  "checkinBackHome": "返回首页",
+  "checkinMoodCalm": "平静",
+  "checkinMoodTense": "紧张",
+  "checkinMoodLow": "低落",
+  "checkinMoodNeutral": "一般",
+  "checkinTagStudy": "学习",
+  "checkinTagExam": "考试",
+  "checkinTagSleep": "睡眠",
+  "checkinTagSocial": "社交",
+  "checkinTagFamily": "家庭"
 }
