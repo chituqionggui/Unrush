@@ -27,13 +27,8 @@ class _CalmStartPageState extends State<CalmStartPage> {
     final muted = prefs.getBool('calm_muted') ?? true; // 默认静音
     setState(() => _muted = muted);
 
-    // 使用静音音源占位，后续可切换为本地自然声资产
-    await _player.setAudioSource(AudioSource.silence(duration: const Duration(hours: 1)));
-    _player.setLoopMode(LoopMode.all);
+    // Audio placeholder removed for compatibility; configure real ambient asset later.
     _applyVolume();
-    if (!muted) {
-      await _player.play();
-    }
   }
 
   void _applyVolume() {
@@ -46,11 +41,7 @@ class _CalmStartPageState extends State<CalmStartPage> {
     setState(() => _muted = !_muted);
     await prefs.setBool('calm_muted', _muted);
     _applyVolume();
-    if (_muted) {
-      await _player.pause();
-    } else {
-      await _player.play();
-    }
+    // No audio source configured yet; only persist preference.
   }
 
   @override
@@ -105,4 +96,3 @@ class _CalmStartPageState extends State<CalmStartPage> {
     );
   }
 }
-
